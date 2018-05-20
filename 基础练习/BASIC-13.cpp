@@ -20,9 +20,9 @@ int main()
 
     sort(m, m + n);
 
-    for (int i = 0; i < n; ++i) {
+    for (int i = 0; i < n; ++i)
         cout << m[i] << ' ';
-    } cout << endl;
+    cout << endl;
 
     return 0;
 }
